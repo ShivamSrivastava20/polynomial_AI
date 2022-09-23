@@ -1,0 +1,28 @@
+{
+  "name": "polynomial_ai",
+  "version": "1.0.0",
+  "description": "usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]            [--super-prefix=<path>] [--config-env=<name>=<envvar>]            <command> [<args>]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivamSrivastava20/polynomial_AI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivamSrivastava20/polynomial_AI/issues"
+  },
+  "homepage": "https://github.com/ShivamSrivastava20/polynomial_AI#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "googleapis": "^108.0.0",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
